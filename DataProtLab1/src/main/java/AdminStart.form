@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="AdminStart">
+  <grid id="27dc6" binding="mainPanel" layout-manager="FormLayout">
+    <rowspec value="center:d:noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <colspec value="fill:d:grow"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="7ccbd" layout-manager="FormLayout">
+        <rowspec value="center:d:grow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <colspec value="fill:d:grow"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="b9e1e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <text value="Выберите действие:"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="239b2" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <hspacer id="b96a3">
+            <constraints/>
+          </hspacer>
+          <hspacer id="35a06">
+            <constraints/>
+          </hspacer>
+          <hspacer id="1b94f">
+            <constraints/>
+          </hspacer>
+          <hspacer id="e6773">
+            <constraints/>
+          </hspacer>
+          <component id="5bc55" class="javax.swing.JButton" binding="changePass">
+            <constraints/>
+            <properties>
+              <text value="Изменить пароль"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="501ec" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <hspacer id="71270">
+            <constraints/>
+          </hspacer>
+          <hspacer id="92be9">
+            <constraints/>
+          </hspacer>
+          <hspacer id="6d1cf">
+            <constraints/>
+          </hspacer>
+          <hspacer id="75c6d">
+            <constraints/>
+          </hspacer>
+          <component id="81101" class="javax.swing.JButton" binding="addUser">
+            <constraints/>
+            <properties>
+              <text value="Добавить пользователя"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="5fd30" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <hspacer id="e1f32">
+            <constraints/>
+          </hspacer>
+          <hspacer id="e7524">
+            <constraints/>
+          </hspacer>
+          <hspacer id="ab5a0">
+            <constraints/>
+          </hspacer>
+          <hspacer id="d9fb1">
+            <constraints/>
+          </hspacer>
+          <component id="90f62" class="javax.swing.JButton" binding="checkUsersList">
+            <constraints/>
+            <properties>
+              <text value="Просмотреть список пользователей"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="2e08c" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="86f34" class="javax.swing.JButton" binding="cancel">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <text value="Выход"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
